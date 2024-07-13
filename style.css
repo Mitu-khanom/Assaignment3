@@ -18,14 +18,11 @@
     border-radius: 15px;
 }
 
-.box img{
-  width: 200px;
-  height: 250px;
-}
+
 .card{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 @media screen and(max-width:1024px){
     .card {
